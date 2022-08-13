@@ -3,3 +3,4 @@ secrets.py
 .idea
 *.sqlite
 tst*.py
+.gitsecret/keys/random_seed
