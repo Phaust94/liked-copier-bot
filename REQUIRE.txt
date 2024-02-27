@@ -1,2 +1,2 @@
-ytmusicapi
+ytmusicapi==0.25.2
 python-telegram-bot
