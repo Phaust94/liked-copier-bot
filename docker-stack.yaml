@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  bot:
+    image: phaust94/bots:liked
+    volumes:
+      - liked_ids:/app/ids
+      - liked_headers:/app/headers
+
+volumes:
+  liked_ids:
+    driver: local
+  liked_headers:
+    driver: local
